@@ -1,0 +1,38 @@
+.navbar {
+    background-color: #f53004;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color: #f53004;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+
+.navbar-toggler {
+    background-color: #f53004;
+}
+
+.container img {
+    height: 50px; 
+}
+
+#carousel {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-inner .carousel-item {
+    justify-content: space-around;
+}
+
+.carousel-inner img {
+    max-height: 500px;
+}
