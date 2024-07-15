@@ -49,6 +49,51 @@
     margin-top: 15px;
 }
 
-.col-mt-4 img {
-    width: 400px;
+#imagens-consoles {
+    width: 100%;
+    height: auto;
+}
+
+
+.nav-jogos .nav-link.active {
+    background-color: #f53004;
+    color: #fff;
+}
+
+.nav-jogos .nav-link {
+    color: #f53004;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+#fale-conosco,
+#fale-conosco i {
+    color: #f53004;
+}
+
+#fale-conosco button {
+    background-color: #f53004;
+    color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+
+    #sobre-o-restaurante img {
+        margin: auto;
+    }
+
+    #imagens-consoles {
+        width: 100%;
+        height: auto;
+    }
 }
